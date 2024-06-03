@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilo/style.css">
-    <script src="./script/estudo.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/estudo.js" defer></script>
     <title>Apostas Abertas</title>
 </head>
 <body>
-    <h1>Site de Aposta</h1>
-    <button id="teste">teste</button>
+    <header class="barra-login">
+        <div class="info-barra">
+
+        </div>
+        <div class="cadastro">
+            <a href="./pages/cadastro.html">Cadastro</a>
+        </div>
+        <div class="login-usuario">
+            <form action="fazerLogin()" class="formLogin">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario" name="usuario" placeholder="@Usuário">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="@Senha">
+                <button type="submit">Login</button>
+            </form>
+            <div class="esqueci-senha"><a href="./pages/recuperarSenha.html">Esqueci a Senha</a></div>
+        </div>
+
+    </header>
+    <section class="principal">
+
+    </section>
+    <footer class="rodape">
+
+    </footer>
 </body>
 </html>
