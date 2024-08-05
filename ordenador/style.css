@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(6, 48, 83);
+}
+
+.cu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    background-color:rgb(5, 69, 153) ;
+}
+
+#btoao{
+    height: 30px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: rgb(64, 112, 201);
+}
